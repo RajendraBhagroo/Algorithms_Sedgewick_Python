@@ -5,7 +5,7 @@ import unittest
 
 
 def gcd(num1: 'Integer', num2: 'Integer') -> 'Integer':
-    """ Returns the greatest common divisor of two integers """
+    """Returns the greatest common divisor of two integers"""
     if(num2 == 0):
         return num1
     else:
@@ -15,7 +15,7 @@ def gcd(num1: 'Integer', num2: 'Integer') -> 'Integer':
 
 # Function Exists For User Verification Of Factors
 def print_factors(num: "Integer") -> "Integer":
-    """ Helper function: returns all factors of any integer """
+    """Helper function: returns all factors of any integer"""
     factors = []
     for i in range(1, num + 1):
         if num % i == 0:
